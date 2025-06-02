@@ -13,6 +13,100 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  ul,
+  ol {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  button{
+    cursor:pointer;
+  }
+.container{
+  width: 1128px;
+  margin: 0 auto;
+}
+  .form {
+    margin-bottom: 32px;
+width: 371px;
+height: 40px;
+  }
+.label{
+width: 272px;
+height: 40px;
+}
+  .gallery {
+    display:flex;
+    flex-wrap: wrap;
+    border: 1px solid #808080;
+        
+gap: 24px;
+  }
+
+  .gallery-item {
+    width: calc((100%-48px)/3);
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+
+  .gallery-item:hover {
+    transform:scale;
+  }
+
+  .info {
+    padding: 4px 20px;
+    display: flex;
+    gap: 24px;
+font-weight: 400;
+font-size: 12px;
+line-height: 200%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+  }
+  
+p {display: flex;
+flex-direction: column;
+}
+  .btn {
+border-radius: 8px;
+padding: 8px 16px;
+border: none;
+
+background: #4e75ff;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.04em;
+color: #fff;
+text-align: center;
+  }
+  .btn:hover{
+background: #6c8cff;
+  }
+  .hidden {
+    display: none;
+  }
