@@ -4,8 +4,8 @@ import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 // Описаний у документації
 
-import {getImagesByQuery} from './pixabay-api.js';
-import {createGallery, clearGallery,  showLoader,  hideLoader} from './render-functions.js';
+import {getImagesByQuery} from './src/js/pixabay-api.js';
+import {createGallery, clearGallery,  showLoader,  hideLoader} from './src/js/render-functions.js';
 
 const form = document.querySelector('.form');
 form.addEventListener('submit', async e =>{
