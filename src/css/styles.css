@@ -105,11 +105,10 @@ text-align: center;
   .btn:hover{
 background: #6c8cff;
   }
-  .hidden {
-    display: none;
-  }
+  
   
     .loader {
+      display:none;
       width: 48px;
       height: 48px;
       border: 5px solid hsl(53, 98%, 52%);
@@ -129,4 +128,6 @@ background: #6c8cff;
       }
       } 
 
-  
+      .hidden {
+        display: none;
+      }
